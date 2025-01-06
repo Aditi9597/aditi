@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Index Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Web Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#navigation">Navigation</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home Page</h2>
+            <p>This website is dedicated to exploring various themes and topics that interest me, ranging from technology to art and lifestyle.</p>
+        </section>
+
+        <section id="navigation">
+            <h2>Navigation Page</h2>
+            <ul>
+                <li><a href="./routes/timetable.html">TIME-TABLE FOR WINTER SEM 2024-25</a></li>
+                <li><a href="./routes/solar.html">SOLAR SYSTEM</a></li>
+                <li><a href="./routes/ad-profile.html">PROFILE PAGE</a></li>
+                <li><a href="./routes/form.html">FORM</a></li>
+                <li><a href="./routes/profile.html">PROFILE USING "div" and "span" tags</a></li>
+            </ul>
+        </section>
+
+        <section id="blog">
+            <h2>Blog Page</h2>
+            <article>
+                <h3>Exploring Thailand</h3>
+                <a href = "thailand.html" style="font-size: 20px; text-decoration: none">Thailand blog page</a><br>
+                <img src = "./thailand/thailand1.jpg" width = "400px" height = "300px"></img>
+                <img src = "./thailand/thailand2.jpg" width = "400px" height = "300px"></img>
+                <img src = "./thailand/thailand3.jpg" width = "300px" height = "400px"></img><br>
+                <img src = "./thailand/thailand4.jpg" width = "300px" height = "400px"></img>
+                <img src = "./thailand/thailand5.jpg" width = "400px" height = "500px"></img>
+                <img src = "./thailand/thailand6.jpg" width = "300px" height = "400px"></img><br>
+            </article>
+            <article>
+                <h2>VIDEO ON HOSTING WEBSITE</h2>
+                <a href="video.mp4">Watch the Video</a>
+            </article>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+        <p>&copy; 2025 My Web Page</p>
+    </footer>
+
+</body>
+</html>

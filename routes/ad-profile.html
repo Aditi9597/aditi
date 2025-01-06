@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Student Name">
+    <title>Software Engineering Student Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .profile-header img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+        }
+
+        .profile-header .info {
+            max-width: 400px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section ul li {
+            padding: 5px 0;
+        }
+
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skills ul li {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            width: 150px;
+        }
+
+        .projects .project {
+            margin-bottom: 15px;
+        }
+
+        .contact a {
+            color: #4D7C8A;
+            text-decoration: none;
+        }
+
+        .project-description {
+            font-style: italic;
+            color: #4D7C8A;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--
+    <header>
+        <h1>Software Engineering Student Profile</h1>
+    </header>
+    -->
+
+    <div class="container">
+
+        <!-- Profile Header with Image and Personal Info -->
+        <div class="profile-header">
+            <img src="../images/aditiperim.jpg" alt="Profile Image"> <!-- Replace with actual image path -->
+            <div class="info">
+                <h2>Aditi Perim</h2>
+                <ul>
+                    <li><strong><font face = "arial">Email:</strong>aditiperim@gmail.com</font></li>
+                    <li><strong><font face = "arial">Phone:</strong> +91 90088 43036</font></li>
+                    <li><strong><font face = "arial">LinkedIn:</strong> <a href="https://www.linkedin.com/in/aditi-perim-697ab328a/" target="_blank">linkedin.com/in/aditiperim</a></font></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <section class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+                <li>HTML & CSS</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>SQL</li>
+                <li>Git</li>
+                <li>Algorithms & Data Structures</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor of Science in Software Engineering</strong><br>Vellore Institute of Technology, 2023–Present</li>
+                <li><strong>High School Diploma</strong><br>National Public School, 2019–2023</li>
+            </ul>
+        </section>
+
+        <section class="section projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Personal Portfolio Website</h3>
+                <p>A responsive portfolio website built using HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+                <p class="project-description">This project demonstrates my ability to create a clean, responsive, and user-friendly personal website. It highlights my projects, skills, and provides an easy way to get in touch with me.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Task Manager App</h3>
+                <p>A task management application built with React and Node.js, allowing users to create, update, and delete tasks.</p>
+                <p class="project-description">This full-stack project utilizes React for the frontend and Node.js for the backend, with a focus on RESTFUL APIs. Users can manage their tasks effectively with a responsive UI and persistent data storage in a MongoDB database.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3: E-commerce Website</h3>
+                <p>An e-commerce website with a full-featured shopping cart and payment gateway, built using Django and Stripe API.</p>
+                <p class="project-description">This project integrates an e-commerce platform with user authentication, product management, and secure payments. Built with Django for the backend and Stripe for handling transactions, this project demonstrates skills in both web development and API integration.</p>
+            </div>
+        </section>
+
+        <section class="section contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me via email or connect with me on LinkedIn.</p>
+            <p>Email: <a href="mailto:aditiperim@gmail.com">aditiperim@gmail.com</a></p>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
+
